@@ -28,6 +28,7 @@ dependencies {
     compile 'com.sun.jersey.contribs:jersey-guice:1.19'
     compile 'com.sun.jersey:jersey-json:1.19'
     compile group: 'org.jdbi', name: 'jdbi', version: '2.77'
+    compile group: 'com.oracle', name: 'ojdbc14', version: '10.2.0.4.0'
     compile group: 'com.h2database', name: 'h2', version: '1.4.192'
 
 

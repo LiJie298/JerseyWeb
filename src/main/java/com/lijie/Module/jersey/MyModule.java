@@ -15,7 +15,7 @@ public class MyModule extends JerseyServletModule {
         bind(GuiceContainer.class);
         bind(JacksonJsonProvider.class).in(Scopes.SINGLETON);
 
-        PackagesResourceConfig resourceConfig = new PackagesResourceConfig("com.lijie.resources");
+        PackagesResourceConfig resourceConfig = new PackagesResourceConfig("com.lijie.resource");
         for (Class<?> resource : resourceConfig.getClasses()) {
             bind(resource);
         }
